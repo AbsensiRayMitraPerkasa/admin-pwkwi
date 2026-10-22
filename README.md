@@ -12,8 +12,9 @@ Repo ini menyiapkan dashboard Admin PWKWI untuk GitHub Pages sebagai PWA shell. 
 2. Deploy sebagai Web App dan pastikan izin akses deployment sesuai kebijakan admin/klien.
 3. Pada GitHub, buka **Settings → Pages** dan pilih **GitHub Actions** sebagai source.
 4. Setelah workflow selesai, buka URL Pages; dashboard admin PWKWI akan terbuka otomatis.
-5. Untuk pemasangan di HP, buka URL Pages di Chrome/Safari lalu pilih **Add to Home Screen / Tambahkan ke Layar Utama**.
+5. Gunakan tombol **Download Aplikasi** untuk petunjuk instalasi di komputer, Android, dan iPhone. Pada iPhone, buka URL Pages lengkap di Safari lalu pilih Bagikan → Tambahkan ke Layar Utama. Manifest dan service worker memakai path absolut `/admin-pwkwi/` agar tautan ikon iPhone tidak terpotong.
 
 ## Keamanan
 GitHub Pages umumnya menyajikan situs secara publik, termasuk jika sumber repo private. Shell ini tidak memuat data karyawan, tetapi dashboard Apps Script harus memiliki pembatasan akses yang tepat. Jangan gunakan deployment Apps Script yang mengizinkan siapa pun melihat data absensi tanpa otorisasi.
+
 
