@@ -1,2 +1,19 @@
-﻿{"id":"https://absensiraymitraperkasa.github.io/admin-pwkwi/","name":"Admin PWKWI","short_name":"Admin PWKWI","description":"Dashboard admin absensi dan patroli PWKWI","start_url":"https://absensiraymitraperkasa.github.io/admin-pwkwi/","scope":"https://absensiraymitraperkasa.github.io/admin-pwkwi/","display":"standalone","background_color":"#f4f7fb","theme_color":"#172554","icons":[{"src":"https://absensiraymitraperkasa.github.io/admin-pwkwi/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
-
+﻿{
+  "id": "https://absensiraymitraperkasa.github.io/admin-pwkwi/",
+  "name": "Admin PWKWI",
+  "short_name": "Admin PWKWI",
+  "description": "Dashboard admin absensi dan patroli PWKWI",
+  "start_url": "https://absensiraymitraperkasa.github.io/admin-pwkwi/",
+  "scope": "https://absensiraymitraperkasa.github.io/admin-pwkwi/",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#172554",
+  "icons": [
+    {
+      "src": "https://absensiraymitraperkasa.github.io/admin-pwkwi/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
